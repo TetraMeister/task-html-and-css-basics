@@ -32,25 +32,26 @@
   &__hero {
     align-items: flex-start;
     min-height: 550px;
-    justify-content: space-around;
-    margin-top: 2em;
+    justify-content: space-between;
+    margin-top: 3em;
   }
 
   &__cta {
     color: white;
     width: 45%;
+    margin-top: 4em;
   }
 
   &__heading {
     font-weight: 700;
     font-size: 2.5em;
-    margin-bottom: 1em;
+    margin-bottom: .5em;
     max-width: 400px;
   }
 
   &__text {
     max-width: 280px;
-    line-height: 2em;
+    line-height: 2;
   }
 
   &__download-btn {
@@ -61,7 +62,7 @@
     border: none;
     outline: none;
     border-radius: 10px;
-    margin: 2em 0;
+    margin: 1.4em 0;
     transition: all 250ms ease-in-out;
     font-size: 1rem;
   }

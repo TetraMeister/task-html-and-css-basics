@@ -17,22 +17,22 @@
     font-size: 2em;
     text-transform: uppercase;
     font-weight: 200;
-    margin-top: .5em;
+    margin-top: 1.5em;
   }
 
   &__container {
     display: flex;
     justify-content: center;
     height: 75%;
-    column-gap: 2em;
+    column-gap: 2.5em;
   }
 
   &__card {
-    max-width: 250px;
+    max-width: 230px;
     min-height: 320px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     text-align: center;
   }
@@ -52,5 +52,12 @@
   &__name {
     text-transform: uppercase;
     margin-bottom: .8em;
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  &__text {
+    color: rgba(255, 255, 255, 0.750);
+    font-size: 14px;
   }
 }
