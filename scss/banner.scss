@@ -1,6 +1,6 @@
 .banner {
   background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
-  padding-bottom: 100px;
+  height: 55vh;
 
   &__nav {
     min-height: 80px;
@@ -29,9 +29,10 @@
   }
 
   &__hero {
-    align-items: center;
+    align-items: flex-start;
     min-height: 550px;
     justify-content: space-around;
+    margin-top: 2em;
   }
 
   &__cta {

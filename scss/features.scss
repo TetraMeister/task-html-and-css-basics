@@ -1,0 +1,55 @@
+.features {
+  background-color: #000000;
+  color: white;
+  height: 40vh;
+
+  &__heading {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 25%;
+  }
+
+  &__title {
+    display: flex;
+    align-items: center;
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: 200;
+    margin-top: .5em;
+  }
+
+  &__container {
+    display: flex;
+    justify-content: center;
+    height: 75%;
+    column-gap: 2em;
+  }
+
+  &__card {
+    max-width: 250px;
+    min-height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+  }
+
+  &__icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 80px;
+    min-width: 80px;
+    border-radius: 50%;
+    background-color: white;
+    margin-bottom: 2em;
+
+  }
+
+  &__name {
+    text-transform: uppercase;
+    margin-bottom: .8em;
+  }
+}

@@ -1,57 +1,48 @@
 .banner {
   background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
-  padding-bottom: 100px;
+  height: 55vh;
 }
-
 .banner__nav {
   min-height: 80px;
   justify-content: space-between;
   align-items: center;
 }
-
 .banner__list {
   display: flex;
   align-items: center;
   gap: 20px;
 }
-
 .banner__link {
   text-decoration: none;
   color: white;
 }
-
 .banner__link:hover {
   color: #0ABCEB;
 }
-
 .banner__logo {
   display: flex;
   align-items: center;
 }
-
 .banner__hero {
-  align-items: center;
+  align-items: flex-start;
   min-height: 550px;
   justify-content: space-around;
+  margin-top: 2em;
 }
-
 .banner__cta {
   color: white;
   width: 45%;
 }
-
 .banner__heading {
   font-weight: 700;
   font-size: 2.5em;
   margin-bottom: 1em;
   max-width: 400px;
 }
-
 .banner__text {
   max-width: 280px;
   line-height: 2em;
 }
-
 .banner__download-btn {
   width: 220px;
   padding: 1em 2em;
@@ -64,17 +55,13 @@
   transition: all 250ms ease-in-out;
   font-size: 1rem;
 }
-
-.banner__download-btn:hover,
-.banner__download-btn:focus {
+.banner__download-btn:hover, .banner__download-btn:focus {
   background-color: #40fb9e;
   border-radius: 25px;
 }
-
 .banner__download-btn:focus {
   outline: 5px dotted black;
 }
-
 .banner__img {
   aspect-ratio: 4/3;
   width: 500px;

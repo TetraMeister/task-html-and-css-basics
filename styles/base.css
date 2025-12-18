@@ -4,12 +4,6 @@
   font-family: "Montserrat", sans-serif;
 }
 
-.container,
-.cell {
-  margin: 5px;
-  padding: 5px;
-}
-
 .row {
   width: 100%;
 }
@@ -17,9 +11,17 @@
 .container {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 5px;
   display: flex;
 }
 
 .cell {
   min-height: 50px;
+  margin: 5px;
+  padding: 5px;
+}
+
+.no-wrap {
+  white-space: nowrap;
+  font: inherit;
 }
