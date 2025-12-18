@@ -1,6 +1,7 @@
 .banner {
   background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
   height: 55vh;
+  min-height: fit-content;
 }
 .banner__nav {
   min-height: 80px;
