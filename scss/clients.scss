@@ -1,0 +1,9 @@
+.clients {
+  width: 100%;
+  height: 5vh;
+
+  &__banner {
+    background: url(./../images/logos.png) center no-repeat;
+    height: 100%;
+  }
+}

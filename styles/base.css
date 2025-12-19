@@ -25,3 +25,7 @@
   white-space: nowrap;
   font: inherit;
 }
+
+.uppercase {
+  text-transform: uppercase;
+}
