@@ -1,23 +1,24 @@
 .about {
   display: flex;
   width: 100%;
-  height: 1000px;
+  height: 800px;
   justify-content: space-between;
   padding: 3em 5px;
 }
 .about__img-container {
-  background: url(./../images/imac.png) center/contain no-repeat;
-  width: 55%;
+  background: url(./../images/imac.png) right/contain no-repeat;
+  flex-basis: 50%;
 }
 .about__content {
-  width: 40%;
-  margin-top: 3em;
+  flex-basis: 50%;
+  margin-top: 2em;
   display: flex;
   align-items: flex-start;
   justify-items: flex-start;
 }
 .about__content-container {
-  width: 60%;
+  max-width: 550px;
+  padding-left: 5em;
 }
 .about__title {
   margin-bottom: 1em;
