@@ -2,7 +2,6 @@
   background-color: #000000;
   color: white;
   height: 40vh;
-  min-height: fit-content;
 }
 .features__heading {
   display: flex;

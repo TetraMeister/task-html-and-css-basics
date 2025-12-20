@@ -17,6 +17,10 @@
   >
   <link
     rel="stylesheet"
+    href="./styles/card-section.css"
+  >
+  <link
+    rel="stylesheet"
     href="./styles/banner.css"
   >
   <link
@@ -30,6 +34,18 @@
   <link
     rel="stylesheet"
     href="./styles/about.css"
+  >
+  <link
+    rel="stylesheet"
+    href="./styles/pricing.css"
+  >
+  <link
+    rel="stylesheet"
+    href="./styles/team.css"
+  >
+  <link
+    rel="stylesheet"
+    href="./styles/foot.css"
   >
   <title>nova | Template</title>
 </head>
@@ -50,15 +66,15 @@
       </a>
       <ul class="banner__list cell">
         <li class="banner__list-item"><a
-            href="#"
+            href="#team"
             class="banner__link"
           >The Team</a></li>
         <li class="banner__list-item"><a
-            href="#"
+            href="#pricing"
             class="banner__link"
           >Pricing</a></li>
         <li class="banner__list-item"><a
-            href="#"
+            href="#features"
             class="banner__link"
           >Features</a></li>
       </ul>
@@ -80,7 +96,10 @@
     </section>
   </header>
 
-  <section class="features row">
+  <section
+    class="features row"
+    id="features"
+  >
     <div class="container features__heading">
       <h2 class="cell features__title uppercase">Features</h2>
     </div>
@@ -137,6 +156,153 @@
       </div>
     </div>
   </section>
+
+  <section
+    class="card-section row pricing"
+    id="pricing"
+  >
+    <div class="card-section__heading container">
+      <h2 class="uppercase card-section__title">Choose your pricing plan</h2>
+      <p class="card-section__subtitle">Pick any of our super affordable pricing plans</p>
+    </div>
+    <div class="card-section__container container">
+      <div class="card-section__card cell pricing__card">
+        <div class="pricing__price-container">
+          <h4 class="pricing__name uppercase">Basic</h4>
+          <span class="pricing__amount">$15</span>
+          <p class="pricing__period">per month</p>
+        </div>
+        <div class="pricing__features">
+          <ul class="pricing__features-list">
+            <li class="pricing__feature">Up to 7 Projects</li>
+            <li class="pricing__feature">2 Additional Developers</li>
+          </ul>
+        </div>
+        <button
+          type="button"
+          class="pricing__btn"
+        >Get Started</button>
+      </div>
+      <div class="card-section__card cell pricing__card">
+        <div class="pricing__price-container">
+          <h4 class="pricing__name uppercase">agency</h4>
+          <span class="pricing__amount">$55</span>
+          <p class="pricing__period">per month</p>
+        </div>
+        <div class="pricing__features">
+          <ul class="pricing__features-list">
+            <li class="pricing__feature">Up to 25 Projects</li>
+            <li class="pricing__feature">2 Additional Developers</li>
+            <li class="pricing__feature">Unlimited Support</li>
+          </ul>
+        </div>
+        <button
+          type="button"
+          class="pricing__btn"
+        >Get Started</button>
+      </div>
+      <div class="card-section__card cell pricing__card">
+        <div class="pricing__price-container">
+          <h4 class="pricing__name uppercase">pro</h4>
+          <span class="pricing__amount">$75</span>
+          <p class="pricing__period">per month</p>
+        </div>
+        <div class="pricing__features">
+          <ul class="pricing__features-list">
+            <li class="pricing__feature">Up to 25 Projects</li>
+            <li class="pricing__feature">2 Additional Developers</li>
+            <li class="pricing__feature">Unlimited Support</li>
+            <li class="pricing__feature">1.5GB Disk Space</li>
+          </ul>
+        </div>
+        <button
+          type="button"
+          class="pricing__btn"
+        >Get Started</button>
+      </div>
+    </div>
+  </section>
+
+  <section
+    class="card-section row team"
+    id="team"
+  >
+    <div class="card-section__heading container">
+      <h2 class="card-section__title uppercase">The team</h2>
+    </div>
+    <div class="card-section__container container">
+      <div class="card-section__card cell team__card">
+        <div class="team__profile-picture cto"></div>
+        <div class="team__member">
+          <h4 class="team__role">CTO</h4>
+          <span class="team__name">Johnny B Good</span>
+        </div>
+        <p class="team__description">The brains behind the whole operation</p>
+        <div class="team__sm-container">
+          <a href="#"><img
+              src="./images/team-twitter.svg"
+              alt="Twitter link"
+            ></a>
+          <a href="#"><img
+              src="./images/team-facebook.svg"
+              alt="Facebook link"
+            ></a>
+        </div>
+      </div>
+      <div class="card-section__card cell team__card">
+        <div class="team__profile-picture ceo"></div>
+        <div class="team__member">
+          <h4 class="team__role">CEO</h4>
+          <span class="team__name">Roll Over Beethoven</span>
+        </div>
+        <p class="team__description">The one that puts it all together</p>
+        <div class="team__sm-container">
+          <a href="#"><img
+              src="./images/team-twitter.svg"
+              alt="Twitter link"
+            ></a>
+          <a href="#"><img
+              src="./images/team-facebook.svg"
+              alt="Facebook link"
+            ></a>
+        </div>
+      </div>
+      <div class="card-section__card cell team__card">
+        <div class="team__profile-picture cfo"></div>
+        <div class="team__member">
+          <h4 class="team__role">CFO</h4>
+          <span class="team__name">Chuck Berry</span>
+        </div>
+        <p class="team__description">The guy with his hand on the wallet</p>
+        <div class="team__sm-container">
+          <a href="#"><img
+              src="./images/team-twitter.svg"
+              alt="Twitter link"
+            ></a>
+          <a href="#"><img
+              src="./images/team-facebook.svg"
+              alt="Facebook link"
+            ></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="row foot">
+    <div class="container foot__container">
+      <div class="foot__content cell">
+        <span class="foot__text">A free template by</span>
+        <a
+          href="#"
+          class="foot__link"
+        ><img
+            src="./images/webscope.svg"
+            alt="Webscope link"
+          >
+        </a>
+      </div>
+    </div>
+  </footer>
 </body>
 
 </html>
